@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+@import "./styles/variables.css";
+@import "./styles/navbar.css";
+@import "./styles/hero.css";
+@import "./styles/sections.css";
+@import "./styles/cards.css";
+@import "./styles/gallery.css";
+@import "./styles/responsive.css";
+
+:root {
+  --navy: #101827;
+  --navy-dark: #0a0f1a;
+  --saffron: #f28c28;
+  --white: #ffffff;
+  --text-light: #687386;
+  --paper: #f7f5f0;
+  --border: rgba(16, 24, 39, 0.08);
+
+  --container: 1280px;
+  --transition: 0.3s ease;
+  --shadow-sm: 0 4px 15px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 20px 40px rgba(10, 15, 26, 0.12);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background: var(--paper);
+  color: var(--navy);
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+::selection {
+  background: var(--saffron);
+  color: var(--white);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--navy);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--saffron);
+}
