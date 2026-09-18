@@ -144,7 +144,7 @@ function Home() {
             <RoleCard
               number="02"
               icon="bi-person-badge"
-              title="District Minority President"
+              title="District Minority  Vice President"
               description="Sri Sathya Sai District."
             />
 
